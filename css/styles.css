@@ -286,6 +286,7 @@ body {
 
 .section-list-portfolio-item {
     width: calc((100% - 72px) / 3);
+    width: 360px;
 }
 
 .main-section-portfolio-list-text {
