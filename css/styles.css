@@ -285,11 +285,11 @@ body {
     justify-content: center;
 }
 
-.main-section-list-portfolio-item {
+.section-list-portfolio-item {
     width: 33.333%;
 }
 
-.section-portfolio-list-text {
+.main-section-portfolio-list-text {
     color: #2E2F42;
     font-size: 20px;
     font-style: normal;
@@ -297,7 +297,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    box-sizing: border-box;
 }
 
 .main-section-portfolio-list-paragraph {
