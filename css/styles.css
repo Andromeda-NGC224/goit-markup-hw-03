@@ -22,11 +22,14 @@ body {
 
 /* Header */
 
+.header-class {
+    border-bottom: 1px solid #E7E9FC;
+    background: #FFF;
+}
+
 .header-class .container {
     display: flex;
     box-sizing: border-box;
-    border-bottom: 1px solid #E7E9FC;
-    background: #FFF;
     width: 1158px;
     justify-content: center;
     align-items: center;
@@ -78,7 +81,8 @@ body {
     line-height: 24px;
     font-weight: 500;
     letter-spacing: 0.32px;
-    text-decoration: none
+    text-decoration: none;
+    padding: 24px 0;
 }
 
 .header-nav-items:hover, 
@@ -97,6 +101,7 @@ body {
     color: #434455;
     text-decoration: none;
     font-style: normal;
+    
 }
 
 .header-nav-contacts {
@@ -280,9 +285,8 @@ body {
 }
 
 .main-section-list-portfolio-item {
-    border: 1px solid #E7E9FC;
     background: #FFF;
-    flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
     border-top: none;
     box-sizing: border-box;
 }
@@ -306,9 +310,9 @@ body {
 }
 
 .worker-name-portfolio {
-     padding: 32px 16px;
-     box-sizing: border-box;
-
+    padding: 32px 16px;
+    box-sizing: border-box;
+    border: 1px solid #E7E9FC;
 }
 
 /* Footer */
