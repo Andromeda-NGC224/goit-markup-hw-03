@@ -236,7 +236,7 @@ body {
     margin-bottom: 72px;
 }
 
-.main-section-team-list {
+.main-section-team-list-item {
     background-color: #FFFFFF;
     box-sizing: border-box;
     border-radius: 0px 0px 4px 4px;
@@ -268,11 +268,17 @@ body {
 
 /* Section-portfolio */
 
+.main-section-portfolio .container {
+    box-sizing: border-box;
+    width: 1158px;
+    flex-shrink: 0;
+}
+
 .main-section-portfolio {
     padding: 120px 0;
     justify-content: center;
     display: flex;
-    margin: 0 auto;
+
 }
 
 .main-section-portfolio-list {
@@ -280,7 +286,8 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    max-width: 1158px;
+    box-sizing: border-box;
+    padding-left: 0;
 }
 
 .section-list-portfolio-item {
